@@ -1,0 +1,21 @@
+/data6/liangyingping/anaconda3/envs/py10/lib/python3.10/site-packages/xformers/ops/fmha/flash.py:211: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_fwd")
+/data6/liangyingping/anaconda3/envs/py10/lib/python3.10/site-packages/xformers/ops/fmha/flash.py:344: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_bwd")
+Using cache found in /data6/liangyingping/.cache/torch/hub/verlab_accelerated_features_main
+
+===== TensorRT XFeat FP16 + Matcher INT8 + fast_grid_cache =====
+match avg: 152.168 ms
+xfeat avg: 1.922 ms
+corr_volume avg: 2.476 ms
+pos_embed avg: 2.572 ms
+coarse matcher avg: 0.416 ms
+fine matcher avg:   0.257 ms
+forward_total avg: 8.602 ms
+post  avg: 85.158 ms
+total avg: 237.326 ms
+inliers: 45 / 5000
+Fundamental matrix:
+ [[ 6.44567584e-07 -4.53000451e-06  5.32578969e-03]
+ [ 1.76245540e-05  9.60303668e-07 -1.89680547e-02]
+ [-2.00168693e-02  4.39681900e-03  1.43070512e+01]]
